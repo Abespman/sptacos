@@ -1,11 +1,11 @@
-var express = require('express');
-var app = express();
-var bodyParser = require('body-parser');
-var mongoose = require('mongoose');
+const express = require("express");
+const app = express();
+const mongoose = require ("mongoose");
+const bodyParser = require("body-parser");
 
-app.use(express.static(__dirname + '/public/dist/public'));
 app.use(bodyParser.json());
+app.use(express.static(__dirname + "/publc/dist/public"));
 
-app.listen(8000, function(){
-    console.log('Running on port 8000');
-})
+app.listen(8000, function() {
+    console.log("Listening on port 8000.");
+});
