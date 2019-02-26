@@ -15,5 +15,8 @@
     "express": "^4.16.4",
     "express-session": "^1.15.6",
     "mongoose": "^5.4.13"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^0.13.3"
   }
 }
