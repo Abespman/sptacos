@@ -1,22 +1,32 @@
 {
-  "name": "server",
+  "name": "sptacos",
   "version": "1.0.0",
   "description": "",
-  "main": "model.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "main": "server.js",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "express-session": "^1.15.6",
-    "mongoose": "^5.4.13"
+    "mongoose": "^5.4.13",
+    "bootstrap": "^4.3.1"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^0.13.3"
   }
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abespman/sptacos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abespman/sptacos/issues"
+  },
+  "homepage": "https://github.com/Abespman/sptacos#readme"
 }
